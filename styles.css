@@ -1,0 +1,52 @@
+body {
+    background-image: url(./grey.png);
+    color: white;
+    font-family: 'Bitter', serif;
+}
+
+#frame {
+    width: 496px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+#clear {
+    width: 65px;
+    height: 25px;
+    line-height: 22px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    font-family: 'Bitter', serif;
+    font-size: 11px;
+}
+
+#clear:hover {
+    background-color: lightgray;
+}
+
+#nPixels {
+    width: 60px;
+    height: 25px;
+}
+
+#container {
+    width: 496px;
+    height: 496px; 
+    margin: auto;
+    background-color: white;
+}
+
+.gridSquare {
+    float: left;
+    border: 1px solid #f3f3f3;
+}
